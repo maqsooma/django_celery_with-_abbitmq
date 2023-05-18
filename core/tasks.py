@@ -18,7 +18,7 @@ def send_email_task(email):
     return send_mail(
         subject,
         message,
-        'alfabravo318@gmail.com', # from
+        'maqsoomahmed98@gmail.com', # from
         [email], # to
         fail_silently=False
     )
